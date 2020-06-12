@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Noah Cote</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/9449e0f0fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="hero is-dark is-small is-bold">
+    <div class="hero-head">
+        <nav class="navbar">
+            <div class="container">
+                <div class="is-size-3">
+                    <h1 class="has-text-weight-medium">Noah Cote</h1>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="navbarMenuHeroA" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="index.html">
+                            Home
+                        </a>
+                        <a class="navbar-item" href="about.html">
+                            About
+                        </a>
+                        <a class="navbar-item is-active" href="projects.html">
+                            Projects
+                        </a>
+                        <a class="navbar-item" href="photography.html">
+                            Photography
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Projects
+            </h1>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="tile is-ancestor">
+        <div class="tile is-12">
+            <div class="tile is-vertical">
+                <div class="tile is-parent">
+                    <div class="card tile is-child" style="padding: 1vw; margin: 1vw !important;">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src=assets/covid_kills.png alt="Covid-Kills Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a class="title" href="https://github.com/ncote3/covid19-kills">
+                                        <i class="fab fa-github-square is-size-1"></i>
+                                    </a>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Covid-19 Kills</p>
+                                    <p class="subtitle is-6">
+                                        A <a href="https://reactjs.org/">React</a> Statistic Generator
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                I begun this project during the beginning of the quarantine while observing many around
+                                me having a hard time grappling with the number of deaths and sick people. To remedy
+                                this I worked to create a country based infographic that was automatically created by
+                                <a href="https://reactjs.org/">React</a>. One of the hardest hurdle’s with this project
+                                was efficiently generating large numbers of icons, I was able to solve it with
+                                <a href="https://reactjs.org/docs/code-splitting.html#reactlazy">lazy loading</a> and
+                                <a href="https://reactjs.org/docs/components-and-props.html">React Components</a>.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card tile is-child" style="padding: 1vw; margin: 1vw !important;">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="assets/corona_backend.png" alt="Corona-Backend Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a class="title" href="https://github.com/ncote3/corona-backend">
+                                        <i class="fab fa-github-square is-size-1"></i>
+                                    </a>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Corona Kills Backend</p>
+                                    <p class="subtitle is-6">A Node Backend to Covid-19 Kills</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Using <a href="https://nodejs.org/en/">Node.JS</a>,
+                                <a href="https://expressjs.com/">Express.JS</a>, and
+                                <a href="https://cheerio.js.org/">Cheerio</a> I created a web scraper that can sanitize
+                                Covid-19 data and be callable by a URL. This API allowed me to make the
+                                <a href="https://reactjs.org/">React</a> front-end even faster through properly calling
+                                for the data when it is necessary. When I was more actively working on this project I
+                                intended to find or create a library that would allow for data to download in the
+                                background as users reach the site.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card tile is-child" style="padding: 1vw; margin: 1vw !important;">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="assets/bee_mov.png" alt="Bee Movie Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a class="title" href="https://github.com/ncote3/BeeMovieAnimation">
+                                        <i class="fab fa-github-square is-size-1"></i>
+                                    </a>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Bee Movie Animation</p>
+                                    <p class="subtitle is-6">
+                                        A Fun Visualization in <a href="https://www.python.org/">Python</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                While coordinating a Drexel Hackathon and Coding Club meeting I created this project as
+                                a quick example of how the terminal can be manipulated with python to display
+                                information or files in a unique way.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-parent is-8">
+                    <div class="card tile is-child" style="padding: 1vw; margin: 1vw !important;">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src=assets/appa.png alt="Appa Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a class="title" href="https://github.com/ncote3/Appa">
+                                        <i class="fab fa-github-square is-size-1"></i>
+                                    </a>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Appa</p>
+                                    <p class="subtitle is-6">
+                                        A Virtual Pet
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Appa was a simulated pet I created for a project in my freshman year at Drexel. Appa can
+                                have a variety of moods while also having quite a few ways to interact. The project is
+                                written with vanilla HTML5, CSS3, and Javascript.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card tile is-child" style="padding: 1vw; margin: 1vw !important;">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="assets/pop_sim.png" alt="Population Simulator Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a class="title" href="https://github.com/ncote3/Population-Sim">
+                                        <i class="fab fa-github-square is-size-1"></i>
+                                    </a>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Population-Sim</p>
+                                    <p class="subtitle is-6">
+                                        A <a href="https://www.python.org/">Python</a> Powered Simulator
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                While in my senior year of high school I was able to take a class on scientific
+                                programming with Python. The Population Simulator was my end of term project culminating
+                                everything I learned in the class. It runs more like a game than a simulator, included
+                                with natural disasters, immigration, and a handful of other events that can impact
+                                a civilization.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
