@@ -2,7 +2,7 @@
 	import LeftSectionHeader from '$lib/LeftSectionHeader.svelte';
 	import ContactItem from '$lib/Contact/subcomponents/ContactItem.svelte';
 
-	export const contactInformation: {
+	const contactInformation: {
 		[key: string]: string;
 	} = {
 		Email: 'noah.cote3@gmail.com',

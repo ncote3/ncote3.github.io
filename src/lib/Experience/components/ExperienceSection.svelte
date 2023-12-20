@@ -8,9 +8,10 @@
 			Biomeme: [
 				{
 					position: 'Software Engineer II',
-					tenure: 'Sept 2022 - Present (9 months)',
+					tenure: 'Sept 2022 - Present (1 year 3 months)',
 					location: 'Philadelphia, PA',
 					descriptionPoints: [
+						'Created a React Native application for use in FDA clinical trials with the Biomeme Host Response Bacterial/Viral test and Franklin ISP device.',
 						'Updated a React Native application originally for research use to be used in a clinical FDA regulated setting with the Biomeme XCEL test.',
 						'Implemented initial release of One Health Labs Patient Portal using cutting-edge React stack.',
 						'Collaborated with UI/UX designers and Product Manager to assess technical feasibility of mobile and desktop mockups.',
